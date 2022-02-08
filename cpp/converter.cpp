@@ -35,8 +35,8 @@ void RomanNumeralConverter::AddArabinNumber()
 void RomanNumeralConverter::ApplyRomanConverter()
 {
     int i = 0;
-    std::string roman_number;
-    std::vector<std::pair<int, std::string>> corresponding_value = 
+    std::string romanNumber;
+    std::vector<std::pair<int, std::string>> correspondingValue = 
     {
         {1000, "M"}, {900, "CM"}, {500, "D"}, {400, "CD"}, {100, "C"}, {90, "XC"}, 
         {50, "L"}, {40, "XL"}, {10, "X"}, {9 , "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
@@ -44,14 +44,14 @@ void RomanNumeralConverter::ApplyRomanConverter()
 
     while (this->m_inputNumber)
     {
-        while (m_inputNumber / corresponding_value[i].first)
+        while (m_inputNumber / correspondingValue[i].first)
         {
-            roman_number += corresponding_value[i].second;
-            this->m_inputNumber -= corresponding_value[i].first;
+            romanNumber += correspondingValue[i].second;
+            this->m_inputNumber -= correspondingValue[i].first;
         }
         i++;
     }
 
-    std::cout << roman_number;
+    std::cout << romanNumber;
 }
 
