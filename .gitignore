@@ -2,3 +2,5 @@
 cpp/build/
 python/package/__pycache__/
 python/package/*pyc
+csharp/bin/
+csharp/obj/
