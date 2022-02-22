@@ -4,3 +4,4 @@ python/package/__pycache__/
 python/package/*pyc
 csharp/bin/
 csharp/obj/
+rust/target/
