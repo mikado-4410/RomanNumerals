@@ -9,7 +9,7 @@ namespace csharp
         public int m_inputNumber = 0;
         public void CheckInputNumber()
         {
-            if(MIN_ROMAN_NUMERAL > m_inputNumber || m_inputNumber > MAX_ROMAN_NUMERAL)
+            if (MIN_ROMAN_NUMERAL > m_inputNumber || m_inputNumber > MAX_ROMAN_NUMERAL)
             {
                 Console.WriteLine($"{m_inputNumber} is not proper input.");
                 AddArabianNumber();
@@ -24,7 +24,7 @@ namespace csharp
             Console.Write("Please enter a value -> ");
             m_inputNumber = int.Parse(Console.ReadLine());
 
-            if(m_inputNumber == 0)
+            if (m_inputNumber == 0)
             {
                 Environment.Exit(0);
             }
