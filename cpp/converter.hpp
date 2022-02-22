@@ -5,11 +5,11 @@
 
 class RomanNumeralConverter
 {
-    private:
-    const static int MIN_ROMAN_NUMERAL = 1; 
+private:
+    const static int MIN_ROMAN_NUMERAL = 1;
     const static int MAX_ROMAN_NUMERAL = 3999;
 
-    public:
+public:
     int m_inputNumber = 0;
     void CheckInputNumber();
     void AddArabinNumber();

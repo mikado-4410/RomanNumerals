@@ -1,7 +1,7 @@
 #include <iostream>
 #include "converter.hpp"
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     RomanNumeralConverter Converter;
     if (argc == 1)
